@@ -139,7 +139,7 @@ export function ContactSection() {
             <div className="p-4 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-900 dark:text-amber-200 flex items-start gap-2.5">
               <AlertCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
               <span>
-                Safety Reference: For emergency gas leaks, please call the official national emergency toll-free number <strong>1906</strong> immediately.
+                Safety Advisory: For hazardous gas leaks or facility emergencies, contact your authorized regional safety response team or designated helpline.
               </span>
             </div>
           </div>

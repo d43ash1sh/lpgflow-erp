@@ -12,27 +12,27 @@ export function InvoicePreview() {
           {/* Left Column: Copy & Value Proposition */}
           <div className="lg:col-span-5 space-y-6">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-500/10 text-orange-600 dark:text-orange-400 text-xs font-semibold uppercase tracking-wider">
-              Statutory Tax & Financials
+              Statutory Billing Engine (Sample)
             </div>
 
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-              Flawless GST compliance for domestic & commercial LPG.
+              Configurable GST invoicing for domestic & commercial LPG.
             </h2>
 
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 leading-relaxed">
-              LPG taxation requires strict segregation: 5% concessional GST on domestic cylinders
-              versus 18% standard GST on commercial/industrial supply. LPGFlow automates HSN classification,
+              LPG taxation requires proper category segregation: e.g. 5% domestic refill rates
+              versus 18% commercial supply (Sample configurable tax slabs). LPGFlow automates HSN classification,
               CGST/SGST apportionment, and statutory E-Way bill reconciliation.
             </p>
 
             <div className="space-y-3 text-xs text-slate-700 dark:text-slate-300">
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800">
                 <Receipt className="w-4 h-4 text-orange-600 shrink-0" />
-                <span>HSN Code 27111900 pre-configured for Liquefied Petroleum Gases</span>
+                <span>Configurable HSN codes (Sample HSN 27111900)</span>
               </div>
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800">
                 <FileCheck2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>E-Way bill threshold calculation & instant JSON export ready</span>
+                <span>E-Way bill threshold calculation & JSON export format ready</span>
               </div>
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800">
                 <Building className="w-4 h-4 text-sky-600 shrink-0" />
@@ -49,10 +49,10 @@ export function InvoicePreview() {
                 <div>
                   <div className="flex items-center gap-2">
                     <span className="text-xs font-mono font-bold text-orange-600 uppercase">
-                      TAX INVOICE
+                      TAX INVOICE (DEMO PREVIEW)
                     </span>
                     <span className="text-[10px] px-2 py-0.5 rounded font-mono bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-400 font-semibold">
-                      PAID / RECONCILED
+                      PAID (SAMPLE)
                     </span>
                   </div>
                   <h3 className="text-lg font-bold font-mono text-slate-900 dark:text-white mt-1">
@@ -63,10 +63,10 @@ export function InvoicePreview() {
 
                 <div className="text-right sm:text-right text-xs text-slate-500">
                   <span className="font-semibold text-slate-800 dark:text-slate-200 block">
-                    LPGFlow Central Bottling Plant
+                    Bottling Facility (Demo Facility)
                   </span>
-                  <span>GSTIN: 27AAAAA0000A1Z5</span>
-                  <span className="block text-[11px] text-slate-400">IRN: 4b87e5b...9a12c09f (Mock)</span>
+                  <span>GSTIN: 27SAMPLE0000A1Z5</span>
+                  <span className="block text-[11px] text-slate-400">IRN: (Sample Demo Placeholder)</span>
                 </div>
               </div>
 
@@ -108,7 +108,7 @@ export function InvoicePreview() {
                   <tbody className="divide-y divide-slate-100 dark:divide-slate-800 font-mono text-[11px]">
                     <tr>
                       <td className="px-3 py-3 font-sans font-medium text-slate-900 dark:text-white">
-                        LPG 14.2 KG Domestic Refill Cylinders
+                        LPG 14.2 KG Domestic Refill Cylinders (Sample Spec)
                       </td>
                       <td className="px-3 py-3 text-slate-500">{inv.hsnCode}</td>
                       <td className="px-3 py-3 text-right">{inv.quantity}</td>
@@ -124,8 +124,8 @@ export function InvoicePreview() {
               {/* Totals & Tax Calculation Breakdown */}
               <div className="flex flex-col sm:flex-row justify-between items-start gap-4 pt-2 text-xs">
                 <div className="text-[11px] text-slate-400 space-y-1">
-                  <p>Certified that particulars given above are true and correct.</p>
-                  <p className="font-mono text-emerald-600">Electronic E-Invoice Reference Verified</p>
+                  <p>Certified that particulars given above are sample illustrative calculations.</p>
+                  <p className="font-mono text-emerald-600">Sample E-Invoice Format Ready (Preview)</p>
                 </div>
 
                 <div className="w-full sm:w-64 space-y-1.5 font-mono text-xs">

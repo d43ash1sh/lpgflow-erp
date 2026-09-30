@@ -8,13 +8,13 @@ export function AnalyticsShowcase() {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center space-y-4 mb-16">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-semibold uppercase tracking-wider">
-            Operational Intelligence
+            Operational Intelligence (Sample Layout)
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Data-driven insights to maximize plant bottling yield.
           </h2>
           <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400">
-            Identify bottleneck routes, monitor distributor recovery rates, and predict seasonal domestic refill demand surges.
+            Identify bottleneck routes, monitor distributor recovery rates, and analyze domestic refill demand cycles.
           </p>
         </div>
 
@@ -25,19 +25,19 @@ export function AnalyticsShowcase() {
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="text-sm font-bold text-slate-900 dark:text-white">
-                  Agency Sales Share
+                  Agency Sales Share (Sample)
                 </h3>
-                <span className="text-xs text-slate-500">Current Month Volume</span>
+                <span className="text-xs text-slate-500">Illustrative Volume Breakdown</span>
               </div>
               <PieChart className="w-4 h-4 text-orange-500" />
             </div>
 
             <div className="space-y-3 pt-2">
               {[
-                { name: "North Valley Distributors", pct: 38, count: "3,450 cyl", color: "bg-orange-600" },
-                { name: "Green Flame Energy", pct: 28, count: "2,540 cyl", color: "bg-amber-500" },
-                { name: "Metro LPG Express", pct: 22, count: "1,980 cyl", color: "bg-sky-500" },
-                { name: "Royal Flame Commercial", pct: 12, count: "1,120 cyl", color: "bg-emerald-500" },
+                { name: "Sample Agency 01 (North)", pct: 38, count: "3,450 cyl (Sample)", color: "bg-orange-600" },
+                { name: "Sample Agency 02 (Central)", pct: 28, count: "2,540 cyl (Sample)", color: "bg-amber-500" },
+                { name: "Sample Agency 03 (South)", pct: 22, count: "1,980 cyl (Sample)", color: "bg-sky-500" },
+                { name: "Sample Commercial Hub", pct: 12, count: "1,120 cyl (Sample)", color: "bg-emerald-500" },
               ].map((ag, idx) => (
                 <div key={idx} className="space-y-1 text-xs">
                   <div className="flex justify-between">
@@ -59,9 +59,9 @@ export function AnalyticsShowcase() {
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="text-sm font-bold text-slate-900 dark:text-white">
-                  Cylinder Turnaround Velocity
+                  Turnaround Velocity (Sample)
                 </h3>
-                <span className="text-xs text-slate-500">Filled → Empty cycle duration</span>
+                <span className="text-xs text-slate-500">Filled → Empty cycle (Sample)</span>
               </div>
               <Clock className="w-4 h-4 text-emerald-500" />
             </div>

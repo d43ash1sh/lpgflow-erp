@@ -59,7 +59,7 @@ export default function ServicesPage() {
         "Every cylinder is mapped to a unique serial number and barcode/QR payload. Monitor filling dates, circulation days in the field, tare degradation, and receive automated alerts before statutory 5-year hydro-testing expiry.",
       features: [
         "Serial number & QR code scanning on mobile devices",
-        "Statutory PESO / IS:3196 hydro-test compliance alerts",
+        "Periodic hydro-test & inspection reminder engine (Sample Rule)",
         "Defective cylinder quarantine & repair tracking",
         "Elimination of empty cylinder loss across agencies",
       ],
@@ -70,10 +70,10 @@ export default function ServicesPage() {
       title: "Fleet Dispatch & Route Logistics",
       tagline: "Lorry Loading, Gate Passes & Digital Handover",
       description:
-        "Streamline vehicle assignments for 10-ton and 16-ton cylinder carriers. Generate automated statutory gate passes, plan multi-stop delivery routes, and enforce dual-signed electronic proof of delivery.",
+        "Streamline vehicle assignments for distribution lorries. Generate operational gate passes, plan multi-stop delivery routes, and enforce dual-signed electronic proof of delivery.",
       features: [
-        "Truck capacity optimization (300 to 450+ cylinders)",
-        "Automated statutory gate-pass generation",
+        "Truck capacity optimization (Illustrative 300 to 450+ cylinders)",
+        "Automated operational gate-pass generation",
         "Driver assignment & route stop sequencing",
         "Mandatory 1:1 empty cylinder exchange confirmation",
       ],
@@ -84,10 +84,10 @@ export default function ServicesPage() {
       title: "Commercial & Bulk Manifold Supply",
       tagline: "Hotel, Industrial & Hospital Gas Management",
       description:
-        "Dedicated workflows for 19kg commercial cylinders and 47.5kg industrial manifolds. Support recurring supply contracts, consumption-based billing, on-site manifold inspection checklists, and priority refill dispatch.",
+        "Dedicated workflows for commercial cylinders and industrial manifolds. Support recurring supply contracts, consumption-based billing, on-site manifold inspection checklists, and priority refill dispatch.",
       features: [
-        "Dedicated commercial contract billing at 18% GST",
-        "47.5kg industrial manifold battery management",
+        "Dedicated commercial contract billing (Configurable GST)",
+        "Industrial manifold battery management",
         "Scheduled automatic refill replenishment",
         "Priority commercial emergency dispatch",
       ],
@@ -95,15 +95,15 @@ export default function ServicesPage() {
     {
       id: "billing",
       icon: FileCheck2,
-      title: "GST Invoicing & Statutory Compliance",
-      tagline: "Automated HSN 27111900 Tax Processing",
+      title: "GST Invoicing & Ledger Accounting",
+      tagline: "Configurable HSN & Tax Processing Engine",
       description:
-        "Handle complex dual-tax structures without human error. Automatically split 5% GST for domestic consumer refills and 18% GST for commercial accounts with instant E-Way bill generation and IRN verification.",
+        "Handle category-specific tax structures. Configure rates for domestic consumer refills versus commercial/industrial accounts with E-Way bill threshold alerts and ledger integration.",
       features: [
-        "Dual-slab GST engine (5% domestic vs 18% commercial)",
+        "Configurable multi-slab GST engine (Sample 5% & 18% Slabs)",
         "Automated E-Way bill threshold calculation",
         "Credit note & security deposit adjustments",
-        "Comprehensive GSTR-1 and GSTR-3B export reports",
+        "Comprehensive GSTR-1 and GSTR-3B export format readiness",
       ],
     },
   ];

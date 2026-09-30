@@ -74,25 +74,25 @@ export function DeliveryRouteMap() {
                   <path d="M -6 -5 L 6 -5 L 6 5 L -6 5 Z" fill="white" />
                 </g>
                 <text x="220" y="80" textAnchor="middle" className="text-[11px] fill-orange-400 font-bold font-mono">
-                  MH-12-RN-4819 (In Transit)
+                  VEHICLE-DEMO-01 (In Transit)
                 </text>
 
-                {/* Node 2: North Valley Distributor */}
+                {/* Node 2: Sample Agency Hub */}
                 <circle cx="380" cy="90" r="12" fill="#0F172A" stroke="#38BDF8" strokeWidth="2.5" />
                 <circle cx="380" cy="90" r="4" fill="#38BDF8" />
                 <text x="380" y="120" textAnchor="middle" className="text-[10px] fill-slate-400 font-mono">
-                  Stop 1: North Valley Gas
+                  Stop 1: Sample Agency A
                 </text>
 
                 {/* Node 3: Commercial Hub Cluster */}
                 <circle cx="500" cy="50" r="12" fill="#0F172A" stroke="#10B981" strokeWidth="2.5" />
                 <circle cx="500" cy="50" r="4" fill="#10B981" />
                 <text x="480" y="32" textAnchor="middle" className="text-[10px] fill-slate-400 font-mono">
-                  Stop 2: MIDC Agency Gate
+                  Stop 2: Sample Commercial Depot
                 </text>
               </svg>
               <div className="absolute bottom-2 right-2 text-[10px] text-slate-500 font-mono">
-                *Conceptual fleet route preview
+                *Conceptual fleet route preview (Sample Data)
               </div>
             </div>
 
@@ -100,15 +100,15 @@ export function DeliveryRouteMap() {
             <div className="grid grid-cols-3 gap-3 pt-1 text-xs">
               <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
                 <span className="text-slate-400 block text-[10px]">Assigned Driver</span>
-                <span className="font-semibold text-slate-200">Kailash Jadhav</span>
+                <span className="font-semibold text-slate-200">Driver 01 (Sample)</span>
               </div>
               <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
                 <span className="text-slate-400 block text-[10px]">Cylinder Payload</span>
-                <span className="font-semibold text-orange-400 font-mono">350 Units (14.2 & 19kg)</span>
+                <span className="font-semibold text-orange-400 font-mono">350 Units (Sample Count)</span>
               </div>
               <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
                 <span className="text-slate-400 block text-[10px]">Gate Pass ID</span>
-                <span className="font-semibold text-emerald-400 font-mono">GP-2026-881</span>
+                <span className="font-semibold text-emerald-400 font-mono">GP-DEMO-001</span>
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ export function DeliveryRouteMap() {
                       Digital Proof of Delivery (e-POD)
                     </h4>
                     <p className="mt-0.5 leading-relaxed">
-                      Recipients sign digitally or verify via SMS/WhatsApp handover code, creating an immutable delivery timestamp in the central ledger.
+                      Recipients sign digitally or verify via SMS / digital handover OTP, creating a verifiable delivery timestamp in the central ledger.
                     </p>
                   </div>
                 </div>
@@ -149,10 +149,10 @@ export function DeliveryRouteMap() {
                   <Shield className="w-4 h-4 text-sky-600 shrink-0 mt-0.5" />
                   <div>
                     <h4 className="font-semibold text-slate-900 dark:text-white">
-                      Payload Safety Compliance
+                      Payload Weight Verification (Sample Rule)
                     </h4>
                     <p className="mt-0.5 leading-relaxed">
-                      Automatically prevents lorry overloading past RTO registered GVW limits with dynamic tare + LPG gas mass calculations.
+                      Assists dispatch operators in preventing lorry overloading past configurable fleet weight limits using tare + gas calculations.
                     </p>
                   </div>
                 </div>

@@ -57,7 +57,7 @@ export function CylinderLifecycle() {
             <div className="p-3.5 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-400 flex items-center gap-2.5">
               <Info className="w-4 h-4 text-orange-500 shrink-0" />
               <span>
-                Statutory PESO / IS:3196 compliant: records hydro-static stretch tests every 5 years automatically.
+                Periodic Inspection Tracker (Configurable): Automates alerts for statutory re-testing schedules based on your plant operating guidelines.
               </span>
             </div>
           </div>
@@ -71,15 +71,15 @@ export function CylinderLifecycle() {
                     <QrCode className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-[10px] font-mono uppercase text-slate-400">Digital Asset Pass</span>
+                    <span className="text-[10px] font-mono uppercase text-slate-400">Digital Asset Pass (Sample)</span>
                     <h3 className="text-sm font-bold text-slate-900 dark:text-white font-mono">
-                      CYL-IN-2024-88912
+                      CYL-DEMO-2024-001
                     </h3>
                   </div>
                 </div>
 
                 <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-400 border border-emerald-500/20">
-                  FILLED & SOUND
+                  FILLED (SAMPLE STATUS)
                 </span>
               </div>
 
@@ -118,29 +118,29 @@ export function CylinderLifecycle() {
                     <rect x="80" y="78" width="8" height="8" />
                   </svg>
                   <span className="absolute bottom-1 text-[8px] font-mono text-slate-400">
-                    SCAN VERIFIED
+                    SAMPLE QR CODE
                   </span>
                 </div>
 
                 <div className="space-y-2 text-xs w-full">
                   <div className="flex items-center justify-between p-2 rounded-lg bg-slate-50 dark:bg-slate-800">
                     <span className="text-slate-500">Cylinder Spec:</span>
-                    <span className="font-bold text-slate-900 dark:text-white">14.2 KG Domestic</span>
+                    <span className="font-bold text-slate-900 dark:text-white">14.2 KG Domestic (Sample)</span>
                   </div>
 
                   <div className="flex items-center justify-between p-2 rounded-lg bg-slate-50 dark:bg-slate-800">
-                    <span className="text-slate-500">Tare Weight (Stamped):</span>
+                    <span className="text-slate-500">Tare Weight (Sample):</span>
                     <span className="font-mono font-bold text-slate-900 dark:text-white">15.28 KG</span>
                   </div>
 
                   <div className="flex items-center justify-between p-2 rounded-lg bg-slate-50 dark:bg-slate-800">
-                    <span className="text-slate-500">Gross Weight Actual:</span>
-                    <span className="font-mono font-bold text-emerald-600">29.48 KG (PASS)</span>
+                    <span className="text-slate-500">Gross Weight (Sample):</span>
+                    <span className="font-mono font-bold text-emerald-600">29.48 KG (Sample Test)</span>
                   </div>
 
                   <div className="flex items-center justify-between p-2 rounded-lg bg-slate-50 dark:bg-slate-800">
                     <span className="text-slate-500">Next Hydro-Test:</span>
-                    <span className="font-mono font-medium text-amber-600">March 2027</span>
+                    <span className="font-mono font-medium text-amber-600">Sample Due Date</span>
                   </div>
                 </div>
               </div>
@@ -149,9 +149,9 @@ export function CylinderLifecycle() {
               <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs text-slate-500">
                 <span className="flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-emerald-500" />
-                  Current Location: Godown 01, Bay 4
+                  Godown Location: Sample Bay
                 </span>
-                <span className="text-[11px] font-mono text-slate-400">Batch: B-9941</span>
+                <span className="text-[11px] font-mono text-slate-400">Batch: DEMO-BATCH-01</span>
               </div>
             </div>
           </div>

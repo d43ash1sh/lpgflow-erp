@@ -340,9 +340,9 @@ export function DashboardPreview() {
                         <Truck className="w-3.5 h-3.5 text-orange-500 shrink-0 mt-0.5" />
                         <div>
                           <p className="font-medium text-slate-900 dark:text-white">
-                            Truck MH-12-RN-4819 reached Stop 1
+                            Truck VEHICLE-DEMO-01 reached Stop 1
                           </p>
-                          <span className="text-[10px] text-slate-400">10 mins ago • 300 Cylinders</span>
+                          <span className="text-[10px] text-slate-400">10 mins ago • 300 Cylinders (Sample)</span>
                         </div>
                       </div>
 
@@ -350,9 +350,9 @@ export function DashboardPreview() {
                         <FileCheck2 className="w-3.5 h-3.5 text-emerald-500 shrink-0 mt-0.5" />
                         <div>
                           <p className="font-medium text-slate-900 dark:text-white">
-                            Payment ₹1.42L reconciled for North Valley
+                            Payment ₹1.42L reconciled for Sample Agency 01
                           </p>
-                          <span className="text-[10px] text-slate-400">28 mins ago • Bank Ref NEFT-9912</span>
+                          <span className="text-[10px] text-slate-400">28 mins ago • Demo NEFT Ref</span>
                         </div>
                       </div>
 
@@ -360,9 +360,9 @@ export function DashboardPreview() {
                         <ShieldAlert className="w-3.5 h-3.5 text-rose-500 shrink-0 mt-0.5" />
                         <div>
                           <p className="font-medium text-slate-900 dark:text-white">
-                            12 Cylinders flagged for Hydro-Test
+                            12 Cylinders flagged for Inspection
                           </p>
-                          <span className="text-[10px] text-slate-400">1 hr ago • 5-Year Expiry Reached</span>
+                          <span className="text-[10px] text-slate-400">1 hr ago • Sample Periodic Alert</span>
                         </div>
                       </div>
                     </div>

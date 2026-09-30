@@ -856,16 +856,16 @@ function DemoContent() {
                 <h3 className="text-sm font-bold text-white">Daily Decanting Mass Balance Audit</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
                   <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800">
-                    <span className="text-slate-400 block text-[11px]">Inward Decanted Tankers</span>
+                    <span className="text-slate-400 block text-[11px]">Inward Decanted Tankers (Sample)</span>
                     <span className="text-lg font-bold font-mono text-white mt-0.5 block">36,420 KG</span>
                   </div>
                   <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800">
-                    <span className="text-slate-400 block text-[11px]">Gross Cylinder Output</span>
+                    <span className="text-slate-400 block text-[11px]">Gross Cylinder Output (Sample)</span>
                     <span className="text-lg font-bold font-mono text-white mt-0.5 block">36,380 KG</span>
                   </div>
                   <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800">
-                    <span className="text-slate-400 block text-[11px]">Decanting Loss Variance</span>
-                    <span className="text-lg font-bold font-mono text-emerald-400 mt-0.5 block">0.11% (Optimal)</span>
+                    <span className="text-slate-400 block text-[11px]">Decanting Variance (Sample)</span>
+                    <span className="text-lg font-bold font-mono text-emerald-400 mt-0.5 block">0.11% (Illustrative)</span>
                   </div>
                 </div>
               </div>
@@ -894,10 +894,10 @@ function DemoContent() {
                   </thead>
                   <tbody className="divide-y divide-slate-800 font-mono text-[11px]">
                     {[
-                      { name: "Devendra Verma", email: "owner@lpgflow.demo", role: "ADMIN", dept: "Plant Executive", status: "ACTIVE" },
-                      { name: "Rajeshwar Verma", email: "godown@lpgflow.demo", role: "STAFF", dept: "Godown Yard", status: "ACTIVE" },
-                      { name: "Kailash Jadhav", email: "driver01@lpgflow.demo", role: "STAFF", dept: "Logistics Dispatch", status: "ACTIVE" },
-                      { name: "Sunil K. Nair", email: "northvalley@lpgagencies.demo", role: "AGENCY", dept: "Channel Distributor", status: "ACTIVE" },
+                      { name: "Demo Admin User", email: "admin@sample-plant.demo", role: "ADMIN", dept: "Plant Executive", status: "ACTIVE" },
+                      { name: "Demo Yard Supervisor", email: "yard@sample-plant.demo", role: "STAFF", dept: "Godown Yard", status: "ACTIVE" },
+                      { name: "Demo Dispatch Driver", email: "driver@sample-plant.demo", role: "STAFF", dept: "Logistics Dispatch", status: "ACTIVE" },
+                      { name: "Demo Agency Principal", email: "agency@sample-lpg.demo", role: "AGENCY", dept: "Channel Distributor", status: "ACTIVE" },
                     ].map((u, i) => (
                       <tr key={i} className="hover:bg-slate-900/60">
                         <td className="px-3 py-3 font-sans font-medium text-slate-200">
@@ -961,10 +961,10 @@ function DemoContent() {
                 </div>
 
                 <div className="space-y-1">
-                  <label className="font-semibold text-slate-300">Statutory PESO Hydro-Testing Interval</label>
+                  <label className="font-semibold text-slate-300">Periodic Cylinder Inspection Interval (Sample Rule)</label>
                   <input
                     type="text"
-                    defaultValue="5 Years (Mandatory statutory re-testing cycle)"
+                    defaultValue="5 Years (Configurable Inspection / Re-Test Parameter)"
                     className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-800 text-white font-mono"
                     readOnly
                   />

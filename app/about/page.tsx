@@ -23,8 +23,8 @@ export default function AboutPage() {
   const pillars = [
     {
       icon: ShieldCheck,
-      title: "Statutory Safety & Compliance",
-      desc: "Built in adherence to Petroleum and Explosives Safety Organization (PESO) regulations and IS:3196 gas cylinder manufacturing/testing standards. Automated 5-year hydro-testing expiry warnings protect both plant licenses and consumer safety.",
+      title: "Configurable Safety & Quality Rules",
+      desc: "Designed to support customizable plant safety checklists, batch inspection rules, and periodic cylinder re-testing alerts according to operational client requirements (Illustrative Framework).",
     },
     {
       icon: Boxes,
@@ -125,7 +125,7 @@ export default function AboutPage() {
                     <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-800/80">
                       <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
-                        <strong className="text-white">Dual-Tax Automation:</strong> Seamlessly handle 5% domestic subsidized/non-subsidized LPG and 18% commercial supply without tax mix-ups.
+                        <strong className="text-white">Dual-Tax Automation:</strong> Configurable GST calculation templates for domestic and commercial LPG categories (Configurable Sample Tax Slabs).
                       </div>
                     </div>
                   </div>
